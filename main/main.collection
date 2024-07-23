@@ -1,4 +1,104 @@
 name: "main"
+instances {
+  id: "c++_npc"
+  prototype: "/main/npc.go"
+  position {
+    x: 218.0
+    y: 399.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "lua_npc"
+  prototype: "/main/npc.go"
+  position {
+    x: 182.0
+    y: 268.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "c#_npc"
+  prototype: "/main/npc.go"
+  position {
+    x: 345.0
+    y: 251.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: -1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "python_npc"
+  prototype: "/main/npc.go"
+  position {
+    x: 396.0
+    y: 409.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: -1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "javascript_typescript_npc"
+  prototype: "/main/npc.go"
+  position {
+    x: 456.0
+    y: 273.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: -1.0
+    y: 1.0
+    z: 1.0
+  }
+}
 scale_along_z: 0
 embedded_instances {
   id: "player"
@@ -298,6 +398,31 @@ embedded_instances {
   position {
     x: 320.0
     y: 320.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+embedded_instances {
+  id: "npcs"
+  children: "c#_npc"
+  children: "c++_npc"
+  children: "javascript_typescript_npc"
+  children: "lua_npc"
+  children: "python_npc"
+  data: ""
+  position {
+    x: 0.0
+    y: 0.0
     z: 0.0
   }
   rotation {
