@@ -1,0 +1,18 @@
+function init(self)
+	center(window.get_size())
+	window.set_listener(on_resized)
+end
+
+function update(self, dt)
+	
+end
+
+function center(width, height)
+	gui.set_position(gui.get_node("box"), vmath.vector3(width / 2, height / 2, 0))
+end
+
+function on_resized(self, event, data)
+	if event == window.WINDOW_EVENT_RESIZED then
+		center(data.width, data.height)
+	end
+end
