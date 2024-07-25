@@ -17,6 +17,26 @@ function on_input(self, action_id, action)
 	end
 end
 
+function on_message(self, message_id, message)
+	if message_id == hash("/c++_npc") then
+		set_button_texts({
+			"one",
+			"two",
+			"three",
+			"four",
+			"five",
+		})
+	elseif message_id == hash("/python_npc") then
+		print("Python")
+	elseif message_id == hash("/lua_npc") then
+		print("Lua")
+	elseif message_id == hash("/c#_npc") then
+		print("C#")
+	elseif message_id == hash("/javascript_typescript_npc") then
+		print("JavaScript TypeScript")
+	end
+end
+
 function center(width, height)
 	gui.set_position(gui.get_node("box"), vmath.vector3(width / 2, height / 2, 0))
 end
@@ -25,4 +45,10 @@ function on_resized(self, event, data)
 	if event == window.WINDOW_EVENT_RESIZED then
 		center(data.width, data.height)
 	end
+end
+
+function set_button_texts(texts)
+	for i = 1, #texts do
+		gui.set_text(gui.get_node("button" .. i .. "_text"), texts[i])
+	end 
 end

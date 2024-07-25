@@ -1,24 +1,32 @@
 function init(self)
 	msg.post(".", "acquire_input_focus")
-end
-
-function update(self, dt)
-	-- Add update code here
-	-- Learn more: https://defold.com/manuals/script/
-	-- Remove this function if not needed
-end
-
-
-function on_message(self, message_id, message, sender)
-	-- Add message-handling code here
-	-- Learn more: https://defold.com/manuals/message-passing/
-	-- Remove this function if not needed
+	self.npc = {}
 end
 
 function on_input(self, action_id, action)
-	if action.x and action.y then
-		local pos = vmath.vector3(action.x, action.y, 0)
-		local world_pos = vmath
-		go.set_position(pos)
+	if action_id == hash("touch") and action.pressed and mouse_over_npc(self, action.screen_x / 2, action.screen_y / 2) then
+		msg.post("/projects_gui#projects_gui", self.npc.id)
 	end
+	
+	-- if action.x and action.y then
+	-- 	local pos = vmath.vector3(action.x, action.y, 0)
+	-- 	pprint(pos)
+	-- 	go.set_position(pos)
+	-- end
+end
+
+function on_message(self, message_id, message)
+	if message_id == hash("npc") then
+		self.npc = message
+	end
+end
+
+function mouse_over_npc(self, mouse_x, mouse_y)
+	local offset = 9
+
+	return next(self.npc)
+	and mouse_x > self.npc.position.x - offset
+	and mouse_x < self.npc.position.x + offset
+	and mouse_y > self.npc.position.y - offset
+	and mouse_y < self.npc.position.y + offset
 end
