@@ -22,5 +22,5 @@ default_texture_mag_filter = nearest
 show_fullscreen_button = 0
 show_made_with_defold = 0
 show_console_banner = 0
-scale_mode = stretch
+scale_mode = no_scale
 

@@ -50,14 +50,10 @@ embedded_instances {
     x: 320.0
     y: 320.0
   }
-}
-embedded_instances {
-  id: "game"
-  data: "components {\n"
-  "  id: \"game\"\n"
-  "  component: \"/main/game.script\"\n"
-  "}\n"
-  ""
+  scale3 {
+    x: 2.0
+    y: 2.0
+  }
 }
 embedded_instances {
   id: "world"
@@ -157,6 +153,10 @@ embedded_instances {
     x: 320.0
     y: 320.0
   }
+  scale3 {
+    x: 2.0
+    y: 2.0
+  }
 }
 embedded_instances {
   id: "npcs"
@@ -166,6 +166,10 @@ embedded_instances {
   children: "lua_npc"
   children: "python_npc"
   data: ""
+  scale3 {
+    x: 2.0
+    y: 2.0
+  }
 }
 embedded_instances {
   id: "c#_npc"
@@ -272,8 +276,8 @@ embedded_instances {
   "}\n"
   ""
   position {
-    x: 345.0
-    y: 250.0
+    x: 186.5
+    y: 88.5
   }
 }
 embedded_instances {
@@ -378,8 +382,8 @@ embedded_instances {
   "}\n"
   ""
   position {
-    x: 218.0
-    y: 400.0
+    x: 59.5
+    y: 238.5
   }
 }
 embedded_instances {
@@ -487,8 +491,8 @@ embedded_instances {
   "}\n"
   ""
   position {
-    x: 455.0
-    y: 265.0
+    x: 296.5
+    y: 103.5
   }
 }
 embedded_instances {
@@ -593,8 +597,8 @@ embedded_instances {
   "}\n"
   ""
   position {
-    x: 183.0
-    y: 266.0
+    x: 24.5
+    y: 104.5
   }
 }
 embedded_instances {
@@ -702,8 +706,8 @@ embedded_instances {
   "}\n"
   ""
   position {
-    x: 394.0
-    y: 411.0
+    x: 235.5
+    y: 249.5
   }
 }
 embedded_instances {
@@ -713,12 +717,30 @@ embedded_instances {
   "  component: \"/main/projects.gui\"\n"
   "}\n"
   ""
+}
+embedded_instances {
+  id: "cursor"
+  data: "components {\n"
+  "  id: \"cursor\"\n"
+  "  component: \"/main/cursor.script\"\n"
+  "}\n"
+  "embedded_components {\n"
+  "  id: \"sprite\"\n"
+  "  type: \"sprite\"\n"
+  "  data: \"default_animation: \\\"Idle\\\"\\n"
+  "material: \\\"/builtins/materials/sprite.material\\\"\\n"
+  "textures {\\n"
+  "  sampler: \\\"texture_sampler\\\"\\n"
+  "  texture: \\\"/main/player.atlas\\\"\\n"
+  "}\\n"
+  "\"\n"
+  "  position {\n"
+  "    z: 1.0\n"
+  "  }\n"
+  "}\n"
+  ""
   position {
-    x: 160.0
-    y: 160.0
-  }
-  scale3 {
-    x: 0.5
-    y: 0.5
+    x: 449.0
+    y: 358.0
   }
 }
