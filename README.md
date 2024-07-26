@@ -1,6 +1,6 @@
 # Porfolio Site
 
 ## Images
-![Screenshot 2024-07-26 204852](https://github.com/user-attachments/assets/b567890b-e2df-49e0-b140-c1d25e4b77d6)
-![Screenshot 2024-07-26 205012](https://github.com/user-attachments/assets/dd173b63-581d-4ef0-a085-558e90243f6f)
-![Screenshot 2024-07-26 204949](https://github.com/user-attachments/assets/d8de5612-f793-40a2-a1fc-97c69572fbfa)
+![ps1](https://github.com/user-attachments/assets/e1656890-8172-4e55-8a60-d22a9dbb533a)
+![ps2](https://github.com/user-attachments/assets/9d0b5461-069d-49a5-972e-5b36b8471ef1)
+![ps3](https://github.com/user-attachments/assets/2f8c5803-48c1-45fd-8d67-8ae6bc2d1e27)
