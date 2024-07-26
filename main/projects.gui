@@ -19,7 +19,6 @@ nodes {
   type: TYPE_BOX
   id: "box"
   inherit_alpha: true
-  enabled: false
   visible: false
 }
 nodes {

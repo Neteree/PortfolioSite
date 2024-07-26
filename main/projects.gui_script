@@ -1,11 +1,5 @@
 function init(self)
 	msg.post(".", "acquire_input_focus")
-	center(window.get_size())
-	window.set_listener(on_resized)
-end
-
-function update(self, dt)
-	
 end
 
 function on_input(self, action_id, action)
@@ -34,16 +28,6 @@ function on_message(self, message_id, message)
 		print("C#")
 	elseif message_id == hash("/javascript_typescript_npc") then
 		print("JavaScript TypeScript")
-	end
-end
-
-function center(width, height)
-	gui.set_position(gui.get_node("box"), vmath.vector3(width / 2, height / 2, 0))
-end
-
-function on_resized(self, event, data)
-	if event == window.WINDOW_EVENT_RESIZED then
-		center(data.width, data.height)
 	end
 end
 
