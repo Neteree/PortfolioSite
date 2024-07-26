@@ -302,7 +302,7 @@ embedded_instances {
   ""
   position {
     x: 224.0
-    y: 128.0
+    y: 144.5
   }
 }
 embedded_instances {
@@ -433,7 +433,7 @@ embedded_instances {
   ""
   position {
     x: 92.0
-    y: 256.0
+    y: 272.5
   }
 }
 embedded_instances {
@@ -567,7 +567,7 @@ embedded_instances {
   ""
   position {
     x: 320.0
-    y: 128.0
+    y: 144.5
   }
 }
 embedded_instances {
@@ -698,7 +698,7 @@ embedded_instances {
   ""
   position {
     x: 60.0
-    y: 129.0
+    y: 145.5
   }
 }
 embedded_instances {
@@ -832,7 +832,7 @@ embedded_instances {
   ""
   position {
     x: 256.0
-    y: 288.0
+    y: 304.5
   }
 }
 embedded_instances {
