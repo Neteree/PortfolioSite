@@ -1,13 +1,21 @@
 function init(self)
 	msg.post(".", "acquire_input_focus")
 	self.vel = vmath.vector3()  
-	self.speed = 128
+	self.speed = 96
+	self.interactee = {}
 end
 
 function update(self, dt)
-	local pos = go.get_position()
-	pos = pos + self.vel * dt 
-	go.set_position(pos)
+	local position = go.get_position()
+	position = position + self.vel * dt 
+
+	if next(self.interactee) and position.y / 2 > self.interactee.position.y and position.z > self.interactee.position.z then
+		position.z = 0.2
+	elseif next(self.interactee) and position.y / 2 < self.interactee.position.y and position.z < self.interactee.position.z then
+		position.z = 0.4
+	end 
+
+	go.set_position(position)
 end
 
 function on_input(self, action_id, action)
@@ -30,12 +38,12 @@ end
 
 function on_message(self, message_id, message, sender)
 	if message_id == hash("trigger_response") then
-		msg.post("/cursor", "npc", message.enter and {id = message.other_id, position = go.get_position(message.other_id)} or {})
+		self.interactee = message.enter and {id = message.other_id, position = go.get_position(message.other_id)} or {}
+		msg.post("/cursor", "npc", self.interactee)
 	end
 	
 	if message_id == hash("contact_point_response") then
-		local newpos = go.get_position() + message.normal * message.distance
-		go.set_position(newpos)
+		go.set_position(go.get_position() + message.normal * message.distance)
 	end
 end
 
