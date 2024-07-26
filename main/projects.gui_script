@@ -1,10 +1,23 @@
+local texts_by_skill = require("main.texts_by_skill")
+
 function init(self)
-	msg.post(".", "acquire_input_focus")
+	self.skills = {}
+	self.button_texts_by_skill = texts_by_skill
+
+	for skill, _ in pairs(self.button_texts_by_skill) do
+		table.insert(self.skills, skill)
+	end
 end
 
 function on_input(self, action_id, action)
 	if action_id == hash("touch") and action.pressed then
-		if gui.pick_node(gui.get_node("cancel_button"), action.x, action.y) then
+		for i = 1, 5 do
+			if mouse_over_node("button" .. i, action.x, action.y) then
+				open_repo(get_node_text("button" .. i .. "_text"):gsub("%s+", ""))
+			end
+		end
+		
+		if mouse_over_node("cancel_button", action.x, action.y) then
 			gui.set_enabled(gui.get_node("box"), false)
 			msg.post(".", "release_input_focus")
 		end
@@ -12,27 +25,30 @@ function on_input(self, action_id, action)
 end
 
 function on_message(self, message_id, message)
-	if message_id == hash("/c++_npc") then
-		set_button_texts({
-			"one",
-			"two",
-			"three",
-			"four",
-			"five",
-		})
-	elseif message_id == hash("/python_npc") then
-		print("Python")
-	elseif message_id == hash("/lua_npc") then
-		print("Lua")
-	elseif message_id == hash("/c#_npc") then
-		print("C#")
-	elseif message_id == hash("/javascript_typescript_npc") then
-		print("JavaScript TypeScript")
+	for i = 1, #self.skills do
+		if message_id == hash("/" .. self.skills[i] .. "_npc") then
+			gui.set_enabled(gui.get_node("box"), true)
+			msg.post(".", "acquire_input_focus")
+			set_button_texts(self.button_texts_by_skill[self.skills[i]])
+			break
+		end
 	end
 end
 
 function set_button_texts(texts)
-	for i = 1, #texts do
+	for i = 1, 5 do
 		gui.set_text(gui.get_node("button" .. i .. "_text"), texts[i])
 	end 
+end
+
+function mouse_over_node(id, mouse_x, mouse_y)
+	return gui.pick_node(gui.get_node(id), mouse_x, mouse_y)
+end
+
+function open_repo(repo_name)
+	sys.open_url("https://github.com/Neteree/" .. repo_name, { target = "_blank" })
+end
+
+function get_node_text(id)
+	return gui.get_text(gui.get_node(id))
 end
