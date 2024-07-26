@@ -40,6 +40,10 @@ function on_message(self, message_id, message, sender)
 	if message_id == hash("trigger_response") then
 		self.interactee = message.enter and {id = message.other_id, position = go.get_position(message.other_id)} or {}
 		msg.post("/cursor", "npc", self.interactee)
+
+		if next(self.interactee) == nil then
+			msg.post("/projects_gui#projects_gui", "close")
+		end
 	end
 	
 	if message_id == hash("contact_point_response") then

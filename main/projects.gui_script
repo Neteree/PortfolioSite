@@ -18,13 +18,16 @@ function on_input(self, action_id, action)
 		end
 		
 		if mouse_over_node("cancel_button", action.x, action.y) then
-			gui.set_enabled(gui.get_node("box"), false)
-			msg.post(".", "release_input_focus")
+			close()
 		end
 	end
 end
 
 function on_message(self, message_id, message)
+	if message_id == hash("close") then
+		close()
+	end
+	
 	for i = 1, #self.skills do
 		if message_id == hash("/" .. self.skills[i] .. "_npc") then
 			gui.set_enabled(gui.get_node("box"), true)
@@ -51,4 +54,9 @@ end
 
 function get_node_text(id)
 	return gui.get_text(gui.get_node(id))
+end
+
+function close()
+	gui.set_enabled(gui.get_node("box"), false)
+	msg.post(".", "release_input_focus")
 end
