@@ -4729,8 +4729,8 @@ nodes {
     y: 192.0
   }
   size {
-    x: 200.0
-    y: 100.0
+    x: 240.0
+    y: 72.0
   }
   type: TYPE_BOX
   id: "button1"
@@ -4741,8 +4741,8 @@ nodes {
 }
 nodes {
   size {
-    x: 200.0
-    y: 100.0
+    x: 240.0
+    y: 72.0
   }
   type: TYPE_BOX
   id: "button1_border"
@@ -4753,23 +4753,7 @@ nodes {
 }
 nodes {
   position {
-    x: 60.0
-    y: 24.0
-  }
-  scale {
-    x: 8.0
-    y: 8.0
-  }
-  type: TYPE_BOX
-  texture: "projects_gui/dt_box_9slice_tc"
-  id: "box312"
-  parent: "button1_border"
-  inherit_alpha: true
-  size_mode: SIZE_MODE_AUTO
-}
-nodes {
-  position {
-    x: -108.0
+    x: 36.0
     y: -24.0
   }
   scale {
@@ -4777,87 +4761,8 @@ nodes {
     y: 8.0
   }
   type: TYPE_BOX
-  texture: "projects_gui/dt_box_9slice_bl"
-  id: "box304"
-  parent: "button1_border"
-  inherit_alpha: true
-  size_mode: SIZE_MODE_AUTO
-}
-nodes {
-  position {
-    x: -36.0
-    y: 24.0
-  }
-  scale {
-    x: 8.0
-    y: 8.0
-  }
-  type: TYPE_BOX
-  texture: "projects_gui/dt_box_9slice_tc"
-  id: "box309"
-  parent: "button1_border"
-  inherit_alpha: true
-  size_mode: SIZE_MODE_AUTO
-}
-nodes {
-  position {
-    x: 12.0
-    y: 24.0
-  }
-  scale {
-    x: 8.0
-    y: 8.0
-  }
-  type: TYPE_BOX
-  texture: "projects_gui/dt_box_9slice_tc"
-  id: "box310"
-  parent: "button1_border"
-  inherit_alpha: true
-  size_mode: SIZE_MODE_AUTO
-}
-nodes {
-  position {
-    x: -12.0
-    y: 24.0
-  }
-  scale {
-    x: 8.0
-    y: 8.0
-  }
-  type: TYPE_BOX
-  texture: "projects_gui/dt_box_9slice_tc"
-  id: "box307"
-  parent: "button1_border"
-  inherit_alpha: true
-  size_mode: SIZE_MODE_AUTO
-}
-nodes {
-  position {
-    x: 36.0
-    y: 24.0
-  }
-  scale {
-    x: 8.0
-    y: 8.0
-  }
-  type: TYPE_BOX
-  texture: "projects_gui/dt_box_9slice_tc"
-  id: "box314"
-  parent: "button1_border"
-  inherit_alpha: true
-  size_mode: SIZE_MODE_AUTO
-}
-nodes {
-  position {
-    x: 108.0
-  }
-  scale {
-    x: 8.0
-    y: 8.0
-  }
-  type: TYPE_BOX
-  texture: "projects_gui/dt_box_9slice_rc"
-  id: "box318"
+  texture: "projects_gui/dt_box_9slice_bc"
+  id: "box302"
   parent: "button1_border"
   inherit_alpha: true
   size_mode: SIZE_MODE_AUTO
@@ -4880,22 +4785,6 @@ nodes {
 }
 nodes {
   position {
-    x: 84.0
-    y: 24.0
-  }
-  scale {
-    x: 8.0
-    y: 8.0
-  }
-  type: TYPE_BOX
-  texture: "projects_gui/dt_box_9slice_tc"
-  id: "box313"
-  parent: "button1_border"
-  inherit_alpha: true
-  size_mode: SIZE_MODE_AUTO
-}
-nodes {
-  position {
     x: -60.0
     y: 24.0
   }
@@ -4912,7 +4801,7 @@ nodes {
 }
 nodes {
   position {
-    x: -84.0
+    x: 84.0
     y: -24.0
   }
   scale {
@@ -4921,7 +4810,23 @@ nodes {
   }
   type: TYPE_BOX
   texture: "projects_gui/dt_box_9slice_bc"
-  id: "box300"
+  id: "box296"
+  parent: "button1_border"
+  inherit_alpha: true
+  size_mode: SIZE_MODE_AUTO
+}
+nodes {
+  position {
+    x: -36.0
+    y: 24.0
+  }
+  scale {
+    x: 8.0
+    y: 8.0
+  }
+  type: TYPE_BOX
+  texture: "projects_gui/dt_box_9slice_tc"
+  id: "box309"
   parent: "button1_border"
   inherit_alpha: true
   size_mode: SIZE_MODE_AUTO
@@ -4944,31 +4849,32 @@ nodes {
 }
 nodes {
   position {
-    x: 108.0
-    y: -24.0
+    x: -84.0
+    y: 24.0
   }
   scale {
     x: 8.0
     y: 8.0
   }
   type: TYPE_BOX
-  texture: "projects_gui/dt_box_9slice_br"
-  id: "box295"
+  texture: "projects_gui/dt_box_9slice_tc"
+  id: "box306"
   parent: "button1_border"
   inherit_alpha: true
   size_mode: SIZE_MODE_AUTO
 }
 nodes {
   position {
-    x: -108.0
+    x: 60.0
+    y: 24.0
   }
   scale {
     x: 8.0
     y: 8.0
   }
   type: TYPE_BOX
-  texture: "projects_gui/dt_box_9slice_lc"
-  id: "box315"
+  texture: "projects_gui/dt_box_9slice_tc"
+  id: "box312"
   parent: "button1_border"
   inherit_alpha: true
   size_mode: SIZE_MODE_AUTO
@@ -4992,6 +4898,37 @@ nodes {
 nodes {
   position {
     x: 12.0
+    y: 24.0
+  }
+  scale {
+    x: 8.0
+    y: 8.0
+  }
+  type: TYPE_BOX
+  texture: "projects_gui/dt_box_9slice_tc"
+  id: "box310"
+  parent: "button1_border"
+  inherit_alpha: true
+  size_mode: SIZE_MODE_AUTO
+}
+nodes {
+  position {
+    x: 108.0
+  }
+  scale {
+    x: 8.0
+    y: 8.0
+  }
+  type: TYPE_BOX
+  texture: "projects_gui/dt_box_9slice_rc"
+  id: "box318"
+  parent: "button1_border"
+  inherit_alpha: true
+  size_mode: SIZE_MODE_AUTO
+}
+nodes {
+  position {
+    x: 12.0
     y: -24.0
   }
   scale {
@@ -5007,7 +4944,7 @@ nodes {
 }
 nodes {
   position {
-    x: -84.0
+    x: 36.0
     y: 24.0
   }
   scale {
@@ -5016,14 +4953,45 @@ nodes {
   }
   type: TYPE_BOX
   texture: "projects_gui/dt_box_9slice_tc"
-  id: "box306"
+  id: "box314"
   parent: "button1_border"
   inherit_alpha: true
   size_mode: SIZE_MODE_AUTO
 }
 nodes {
   position {
-    x: -60.0
+    x: -108.0
+  }
+  scale {
+    x: 8.0
+    y: 8.0
+  }
+  type: TYPE_BOX
+  texture: "projects_gui/dt_box_9slice_lc"
+  id: "box315"
+  parent: "button1_border"
+  inherit_alpha: true
+  size_mode: SIZE_MODE_AUTO
+}
+nodes {
+  position {
+    x: -108.0
+    y: -24.0
+  }
+  scale {
+    x: 8.0
+    y: 8.0
+  }
+  type: TYPE_BOX
+  texture: "projects_gui/dt_box_9slice_bl"
+  id: "box304"
+  parent: "button1_border"
+  inherit_alpha: true
+  size_mode: SIZE_MODE_AUTO
+}
+nodes {
+  position {
+    x: -84.0
     y: -24.0
   }
   scale {
@@ -5032,7 +5000,7 @@ nodes {
   }
   type: TYPE_BOX
   texture: "projects_gui/dt_box_9slice_bc"
-  id: "box303"
+  id: "box300"
   parent: "button1_border"
   inherit_alpha: true
   size_mode: SIZE_MODE_AUTO
@@ -5056,22 +5024,22 @@ nodes {
 nodes {
   position {
     x: 84.0
-    y: -24.0
+    y: 24.0
   }
   scale {
     x: 8.0
     y: 8.0
   }
   type: TYPE_BOX
-  texture: "projects_gui/dt_box_9slice_bc"
-  id: "box296"
+  texture: "projects_gui/dt_box_9slice_tc"
+  id: "box313"
   parent: "button1_border"
   inherit_alpha: true
   size_mode: SIZE_MODE_AUTO
 }
 nodes {
   position {
-    x: 36.0
+    x: -60.0
     y: -24.0
   }
   scale {
@@ -5080,7 +5048,39 @@ nodes {
   }
   type: TYPE_BOX
   texture: "projects_gui/dt_box_9slice_bc"
-  id: "box302"
+  id: "box303"
+  parent: "button1_border"
+  inherit_alpha: true
+  size_mode: SIZE_MODE_AUTO
+}
+nodes {
+  position {
+    x: 108.0
+    y: -24.0
+  }
+  scale {
+    x: 8.0
+    y: 8.0
+  }
+  type: TYPE_BOX
+  texture: "projects_gui/dt_box_9slice_br"
+  id: "box295"
+  parent: "button1_border"
+  inherit_alpha: true
+  size_mode: SIZE_MODE_AUTO
+}
+nodes {
+  position {
+    x: -12.0
+    y: 24.0
+  }
+  scale {
+    x: 8.0
+    y: 8.0
+  }
+  type: TYPE_BOX
+  texture: "projects_gui/dt_box_9slice_tc"
+  id: "box307"
   parent: "button1_border"
   inherit_alpha: true
   size_mode: SIZE_MODE_AUTO
@@ -5103,8 +5103,8 @@ nodes {
 }
 nodes {
   size {
-    x: 200.0
-    y: 100.0
+    x: 240.0
+    y: 72.0
   }
   type: TYPE_TEXT
   text: "<text>"
@@ -5128,8 +5128,8 @@ nodes {
     y: 96.0
   }
   size {
-    x: 200.0
-    y: 100.0
+    x: 240.0
+    y: 72.0
   }
   type: TYPE_BOX
   id: "button2"
@@ -5140,8 +5140,8 @@ nodes {
 }
 nodes {
   size {
-    x: 200.0
-    y: 100.0
+    x: 240.0
+    y: 72.0
   }
   type: TYPE_BOX
   id: "button2_border"
@@ -5502,8 +5502,8 @@ nodes {
 }
 nodes {
   size {
-    x: 200.0
-    y: 100.0
+    x: 240.0
+    y: 72.0
   }
   type: TYPE_TEXT
   text: "<text>"
@@ -5524,8 +5524,8 @@ nodes {
 }
 nodes {
   size {
-    x: 200.0
-    y: 100.0
+    x: 240.0
+    y: 72.0
   }
   type: TYPE_BOX
   id: "button3"
@@ -5536,8 +5536,8 @@ nodes {
 }
 nodes {
   size {
-    x: 200.0
-    y: 100.0
+    x: 240.0
+    y: 72.0
   }
   type: TYPE_BOX
   id: "button3_border"
@@ -5898,8 +5898,8 @@ nodes {
 }
 nodes {
   size {
-    x: 200.0
-    y: 100.0
+    x: 240.0
+    y: 72.0
   }
   type: TYPE_TEXT
   text: "<text>"
@@ -5923,8 +5923,8 @@ nodes {
     y: -96.0
   }
   size {
-    x: 200.0
-    y: 100.0
+    x: 240.0
+    y: 72.0
   }
   type: TYPE_BOX
   id: "button4"
@@ -5935,8 +5935,8 @@ nodes {
 }
 nodes {
   size {
-    x: 200.0
-    y: 100.0
+    x: 240.0
+    y: 72.0
   }
   type: TYPE_BOX
   id: "button4_border"
@@ -6297,8 +6297,8 @@ nodes {
 }
 nodes {
   size {
-    x: 200.0
-    y: 100.0
+    x: 240.0
+    y: 72.0
   }
   type: TYPE_TEXT
   text: "<text>"
@@ -6322,8 +6322,8 @@ nodes {
     y: -192.0
   }
   size {
-    x: 200.0
-    y: 100.0
+    x: 240.0
+    y: 72.0
   }
   type: TYPE_BOX
   id: "button5"
@@ -6334,8 +6334,8 @@ nodes {
 }
 nodes {
   size {
-    x: 200.0
-    y: 100.0
+    x: 240.0
+    y: 72.0
   }
   type: TYPE_BOX
   id: "button5_border"
@@ -6696,8 +6696,8 @@ nodes {
 }
 nodes {
   size {
-    x: 200.0
-    y: 100.0
+    x: 240.0
+    y: 72.0
   }
   type: TYPE_TEXT
   text: "<text>"
