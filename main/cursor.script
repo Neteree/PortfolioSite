@@ -11,7 +11,7 @@ function on_input(self, action_id, action)
 
 		html5.run([[
 			if(document.body.style.cursor != 'pointer'){
-				document.body.style.cursor = url("https://i.postimg.cc/rygpR69h/cursor-04.png"),auto';
+				document.body.style.cursor = 'pointer';
 			}
 		]])
 	else
