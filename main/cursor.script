@@ -1,4 +1,5 @@
 function init(self)
+	set_cursor([["url('https://i.postimg.cc/vHVpFDL6/cursor-04.png'), auto"]])
 	msg.post(".", "acquire_input_focus")
 	self.npc = {}
 end
@@ -10,9 +11,10 @@ function on_input(self, action_id, action)
 			self.npc.is_interactable = false
 		end
 
-		set_cursor("'pointer'")
+		set_cursor([["url('https://i.postimg.cc/7Zgh6HD5/expression-chat.png'), auto"]])
+		
 	else
-		set_cursor("'default'")
+		set_cursor([["url('https://i.postimg.cc/vHVpFDL6/cursor-04.png'), auto"]])
 	end
 end
 
