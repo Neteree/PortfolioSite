@@ -4,32 +4,25 @@ function init(self)
 end
 
 function on_input(self, action_id, action)
-	if mouse_over_npc(self, action.screen_x / 2, action.screen_y / 2) then
+	if next(self.npc) and self.npc.is_interactable and mouse_over_npc(self, action.screen_x / 2, action.screen_y / 2) then
 		if action_id == hash("touch") and action.pressed then
 			msg.post("/projects_gui#projects_gui", self.npc.id)
+			self.npc.is_interactable = false
 		end
 
-		html5.run([[
-			if(document.body.style.cursor != 'pointer'){
-				document.body.style.cursor = 'pointer';
-			}
-		]])
+		set_cursor("'pointer'")
 	else
-		html5.run([[
-			if(document.body.style.cursor != 'default'){
-				document.body.style.cursor = 'default';
-			}
-		]])
+		set_cursor("'default'")
 	end
 end
 
 function on_message(self, message_id, message)
+	if message_id == hash("npc_is_interactable") then
+		self.npc.is_interactable = true
+	end
+	
 	if message_id == hash("set_pointer") then
-		html5.run([[
-			if(document.body.style.cursor != 'pointer'){
-				document.body.style.cursor = 'pointer';
-			}
-		]])
+		set_cursor("'pointer'")
 	end
 	
 	if message_id == hash("npc") then
@@ -40,9 +33,16 @@ end
 function mouse_over_npc(self, mouse_x, mouse_y)
 	local offset = 9
 
-	return next(self.npc)
-	and mouse_x > self.npc.position.x - offset
+	return mouse_x > self.npc.position.x - offset
 	and mouse_x < self.npc.position.x + offset
 	and mouse_y > self.npc.position.y - offset
 	and mouse_y < self.npc.position.y + offset
+end
+
+function set_cursor(cursor)
+	html5.run([[
+		if(document.body.style.cursor != ]] .. cursor .. [[){
+			document.body.style.cursor = ]] .. cursor .. [[;
+		}
+	]])
 end
