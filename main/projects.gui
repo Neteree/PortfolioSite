@@ -5121,7 +5121,6 @@ nodes {
     z: 1.0
   }
   parent: "button1"
-  inherit_alpha: true
 }
 nodes {
   position {
@@ -5520,7 +5519,6 @@ nodes {
     z: 1.0
   }
   parent: "button2"
-  inherit_alpha: true
 }
 nodes {
   size {
@@ -5916,7 +5914,6 @@ nodes {
     z: 1.0
   }
   parent: "button3"
-  inherit_alpha: true
 }
 nodes {
   position {
@@ -6315,7 +6312,6 @@ nodes {
     z: 1.0
   }
   parent: "button4"
-  inherit_alpha: true
 }
 nodes {
   position {
@@ -6714,7 +6710,6 @@ nodes {
     z: 1.0
   }
   parent: "button5"
-  inherit_alpha: true
 }
 nodes {
   position {
