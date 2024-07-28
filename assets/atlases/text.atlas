@@ -1,0 +1,16 @@
+images {
+  image: "/assets/images/js_ts.png"
+}
+images {
+  image: "/assets/images/c#.png"
+}
+images {
+  image: "/assets/images/c++.png"
+}
+images {
+  image: "/assets/images/lua.png"
+}
+images {
+  image: "/assets/images/python.png"
+}
+extrude_borders: 2
