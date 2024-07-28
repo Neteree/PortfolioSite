@@ -1,5 +1,4 @@
 function init(self)
-	set_cursor([["url('https://i.postimg.cc/vHVpFDL6/cursor-04.png'), auto"]])
 	msg.post(".", "acquire_input_focus")
 	self.npc = {}
 end

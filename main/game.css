@@ -65,6 +65,10 @@
 		background-repeat: repeat;
 	}
 
+	html {
+		cursor: url('https://i.postimg.cc/vHVpFDL6/cursor-04.png'), auto;
+	}
+
 	.canvas-app-container {
 		border-radius: 7%;
 		background: rgba(250,252,255,1);
