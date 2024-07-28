@@ -1,0 +1,191 @@
+animations {
+  id: "Chimney_smoke1"
+  images {
+    image: "/assets/images/chimneysmoke_05_strip30_1.png"
+  }
+  images {
+    image: "/assets/images/chimneysmoke_05_strip30_2.png"
+  }
+  images {
+    image: "/assets/images/chimneysmoke_05_strip30_3.png"
+  }
+  images {
+    image: "/assets/images/chimneysmoke_05_strip30_4.png"
+  }
+  images {
+    image: "/assets/images/chimneysmoke_05_strip30_5.png"
+  }
+  images {
+    image: "/assets/images/chimneysmoke_05_strip30_6.png"
+  }
+  images {
+    image: "/assets/images/chimneysmoke_05_strip30_7.png"
+  }
+  images {
+    image: "/assets/images/chimneysmoke_05_strip30_8.png"
+  }
+  images {
+    image: "/assets/images/chimneysmoke_05_strip30_9.png"
+  }
+  images {
+    image: "/assets/images/chimneysmoke_05_strip30_10.png"
+  }
+  images {
+    image: "/assets/images/chimneysmoke_05_strip30_11.png"
+  }
+  images {
+    image: "/assets/images/chimneysmoke_05_strip30_12.png"
+  }
+  images {
+    image: "/assets/images/chimneysmoke_05_strip30_13.png"
+  }
+  images {
+    image: "/assets/images/chimneysmoke_05_strip30_14.png"
+  }
+  images {
+    image: "/assets/images/chimneysmoke_05_strip30_15.png"
+  }
+  images {
+    image: "/assets/images/chimneysmoke_05_strip30_16.png"
+  }
+  images {
+    image: "/assets/images/chimneysmoke_05_strip30_17.png"
+  }
+  images {
+    image: "/assets/images/chimneysmoke_05_strip30_18.png"
+  }
+  images {
+    image: "/assets/images/chimneysmoke_05_strip30_19.png"
+  }
+  images {
+    image: "/assets/images/chimneysmoke_05_strip30_20.png"
+  }
+  images {
+    image: "/assets/images/chimneysmoke_05_strip30_21.png"
+  }
+  images {
+    image: "/assets/images/chimneysmoke_05_strip30_22.png"
+  }
+  images {
+    image: "/assets/images/chimneysmoke_05_strip30_23.png"
+  }
+  images {
+    image: "/assets/images/chimneysmoke_05_strip30_24.png"
+  }
+  images {
+    image: "/assets/images/chimneysmoke_05_strip30_25.png"
+  }
+  images {
+    image: "/assets/images/chimneysmoke_05_strip30_26.png"
+  }
+  images {
+    image: "/assets/images/chimneysmoke_05_strip30_27.png"
+  }
+  images {
+    image: "/assets/images/chimneysmoke_05_strip30_28.png"
+  }
+  images {
+    image: "/assets/images/chimneysmoke_05_strip30_29.png"
+  }
+  images {
+    image: "/assets/images/chimneysmoke_05_strip30_30.png"
+  }
+  playback: PLAYBACK_LOOP_FORWARD
+  fps: 10
+}
+animations {
+  id: "Chimney_smoke2"
+  images {
+    image: "/assets/images/chimneysmoke_02_strip30_1.png"
+  }
+  images {
+    image: "/assets/images/chimneysmoke_02_strip30_2.png"
+  }
+  images {
+    image: "/assets/images/chimneysmoke_02_strip30_3.png"
+  }
+  images {
+    image: "/assets/images/chimneysmoke_02_strip30_4.png"
+  }
+  images {
+    image: "/assets/images/chimneysmoke_02_strip30_5.png"
+  }
+  images {
+    image: "/assets/images/chimneysmoke_02_strip30_6.png"
+  }
+  images {
+    image: "/assets/images/chimneysmoke_02_strip30_7.png"
+  }
+  images {
+    image: "/assets/images/chimneysmoke_02_strip30_8.png"
+  }
+  images {
+    image: "/assets/images/chimneysmoke_02_strip30_9.png"
+  }
+  images {
+    image: "/assets/images/chimneysmoke_02_strip30_10.png"
+  }
+  images {
+    image: "/assets/images/chimneysmoke_02_strip30_11.png"
+  }
+  images {
+    image: "/assets/images/chimneysmoke_02_strip30_12.png"
+  }
+  images {
+    image: "/assets/images/chimneysmoke_02_strip30_13.png"
+  }
+  images {
+    image: "/assets/images/chimneysmoke_02_strip30_14.png"
+  }
+  images {
+    image: "/assets/images/chimneysmoke_02_strip30_15.png"
+  }
+  images {
+    image: "/assets/images/chimneysmoke_02_strip30_16.png"
+  }
+  images {
+    image: "/assets/images/chimneysmoke_02_strip30_17.png"
+  }
+  images {
+    image: "/assets/images/chimneysmoke_02_strip30_18.png"
+  }
+  images {
+    image: "/assets/images/chimneysmoke_02_strip30_19.png"
+  }
+  images {
+    image: "/assets/images/chimneysmoke_02_strip30_20.png"
+  }
+  images {
+    image: "/assets/images/chimneysmoke_02_strip30_21.png"
+  }
+  images {
+    image: "/assets/images/chimneysmoke_02_strip30_22.png"
+  }
+  images {
+    image: "/assets/images/chimneysmoke_02_strip30_23.png"
+  }
+  images {
+    image: "/assets/images/chimneysmoke_02_strip30_24.png"
+  }
+  images {
+    image: "/assets/images/chimneysmoke_02_strip30_25.png"
+  }
+  images {
+    image: "/assets/images/chimneysmoke_02_strip30_26.png"
+  }
+  images {
+    image: "/assets/images/chimneysmoke_02_strip30_27.png"
+  }
+  images {
+    image: "/assets/images/chimneysmoke_02_strip30_28.png"
+  }
+  images {
+    image: "/assets/images/chimneysmoke_02_strip30_29.png"
+  }
+  images {
+    image: "/assets/images/chimneysmoke_02_strip30_30.png"
+  }
+  playback: PLAYBACK_LOOP_FORWARD
+  fps: 10
+}
+extrude_borders: 2
