@@ -1,6 +1,7 @@
 # Porfolio Site
 
 ## Images
-![nps1](https://github.com/user-attachments/assets/80a56adf-e8bd-46ec-a935-0665a6d45d7e)
-![nps2](https://github.com/user-attachments/assets/369cc0ff-a936-4e6f-a8cf-de2d46825a30)
-![nps3](https://github.com/user-attachments/assets/57c17785-af4e-4257-926f-3186eb65a5e6)
+
+![ps1](https://github.com/user-attachments/assets/2d3e97c7-7faa-4854-803d-1aec8cb892ac)
+![ps2](https://github.com/user-attachments/assets/26dfc580-1133-4378-9dbf-75017d5d9f39)
+![ps3](https://github.com/user-attachments/assets/6a39a850-dca2-4cde-8a73-18ab752b3677)
