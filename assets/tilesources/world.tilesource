@@ -1,10 +1,7 @@
-image: "/main/spr_tileset_sunnysideworld_16px.png"
+image: "/assets/images/spr_tileset_sunnysideworld_16px.png"
 tile_width: 16
 tile_height: 16
-tile_margin: 0
-tile_spacing: 0
-collision: "/main/spr_tileset_sunnysideworld_16px.png"
-material_tag: "tile"
+collision: "/assets/images/spr_tileset_sunnysideworld_16px.png"
 convex_hulls {
   index: 0
   count: 0
@@ -20490,11 +20487,5 @@ animations {
   id: "anim"
   start_tile: 1
   end_tile: 1
-  playback: PLAYBACK_ONCE_FORWARD
-  fps: 30
-  flip_horizontal: 0
-  flip_vertical: 0
 }
 extrude_borders: 2
-inner_padding: 0
-sprite_trim_mode: SPRITE_TRIM_MODE_OFF

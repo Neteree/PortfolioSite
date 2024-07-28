@@ -1,0 +1,59 @@
+animations {
+  id: "Idle"
+  images {
+    image: "/assets/images/idle1.png"
+  }
+  images {
+    image: "/assets/images/idle2.png"
+  }
+  images {
+    image: "/assets/images/idle3.png"
+  }
+  images {
+    image: "/assets/images/idle4.png"
+  }
+  images {
+    image: "/assets/images/idle5.png"
+  }
+  images {
+    image: "/assets/images/idle6.png"
+  }
+  images {
+    image: "/assets/images/idle7.png"
+  }
+  images {
+    image: "/assets/images/idle8.png"
+  }
+  playback: PLAYBACK_LOOP_FORWARD
+  fps: 10
+}
+animations {
+  id: "Walk"
+  images {
+    image: "/assets/images/walk1.png"
+  }
+  images {
+    image: "/assets/images/walk2.png"
+  }
+  images {
+    image: "/assets/images/walk3.png"
+  }
+  images {
+    image: "/assets/images/walk4.png"
+  }
+  images {
+    image: "/assets/images/walk5.png"
+  }
+  images {
+    image: "/assets/images/walk6.png"
+  }
+  images {
+    image: "/assets/images/walk7.png"
+  }
+  images {
+    image: "/assets/images/walk8.png"
+  }
+  playback: PLAYBACK_LOOP_FORWARD
+  fps: 10
+}
+extrude_borders: 2

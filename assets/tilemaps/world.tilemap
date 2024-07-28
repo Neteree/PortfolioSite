@@ -1,4 +1,4 @@
-tile_set: "/main/world.tilesource"
+tile_set: "/assets/tilesources/world.tilesource"
 layers {
   id: "layer0"
   z: 0.0

@@ -23,5 +23,5 @@ show_fullscreen_button = 0
 show_made_with_defold = 0
 show_console_banner = 0
 scale_mode = no_scale
-cssfile = /main/game.css
+cssfile = /assets/code/game.css
 

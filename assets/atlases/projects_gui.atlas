@@ -1,0 +1,34 @@
+images {
+  image: "/assets/images/dt_box_9slice_bc.png"
+}
+images {
+  image: "/assets/images/dt_box_9slice_bl.png"
+}
+images {
+  image: "/assets/images/dt_box_9slice_br.png"
+}
+images {
+  image: "/assets/images/dt_box_9slice_c.png"
+}
+images {
+  image: "/assets/images/dt_box_9slice_lc.png"
+}
+images {
+  image: "/assets/images/dt_box_9slice_rc.png"
+}
+images {
+  image: "/assets/images/dt_box_9slice_tc.png"
+}
+images {
+  image: "/assets/images/dt_box_9slice_tl.png"
+}
+images {
+  image: "/assets/images/dt_box_9slice_tr.png"
+}
+images {
+  image: "/assets/images/cancel.png"
+}
+images {
+  image: "/assets/images/itemdisc_01.png"
+}
+extrude_borders: 2

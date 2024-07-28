@@ -1,4 +1,4 @@
-local texts_by_skill = require("main.texts_by_skill")
+local texts_by_skill = require("assets/code/texts_by_skill")
 
 function init(self)
 	self.skills = {}

@@ -1,11 +1,11 @@
-script: "/main/projects.gui_script"
+script: "/assets/code/projects.gui_script"
 fonts {
   name: "default"
   font: "/builtins/fonts/default.font"
 }
 textures {
   name: "projects_gui"
-  texture: "/main/projects_gui.atlas"
+  texture: "/assets/atlases/projects_gui.atlas"
 }
 nodes {
   position {

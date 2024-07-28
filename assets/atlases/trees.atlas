@@ -1,0 +1,13 @@
+images {
+  image: "/assets/images/small_tree_bottom.png"
+}
+images {
+  image: "/assets/images/small_tree_top.png"
+}
+images {
+  image: "/assets/images/medium_tree_bottom.png"
+}
+images {
+  image: "/assets/images/medium_tree_top.png"
+}
+extrude_borders: 2

@@ -1,0 +1,10 @@
+images {
+  image: "/assets/images/label_left.png"
+}
+images {
+  image: "/assets/images/label_middle.png"
+}
+images {
+  image: "/assets/images/label_right.png"
+}
+extrude_borders: 2
