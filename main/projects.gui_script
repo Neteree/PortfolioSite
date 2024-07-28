@@ -24,14 +24,14 @@ function on_input(self, action_id, action)
 	
 	for i = 1, 5 do
 		if mouse_over_node("button" .. i, action.x, action.y) then
-			gui.set_color(gui.get_node("button" .. i), vmath.vector4(255, 255, 255, 1))
+			gui.set_alpha(gui.get_node("button" .. i), 1)
 			msg.post("/cursor", "set_pointer")
 			
 			if action_id == hash("touch") and action.pressed then
 				open_repo(get_node_text("button" .. i .. "_text"):gsub("%s+", ""))
 			end
 		else
-			gui.set_color(gui.get_node("button" .. i), vmath.vector4(255, 255, 255, 0.7))
+			gui.set_alpha(gui.get_node("button" .. i), 0.7)
 		end
 	end
 end
