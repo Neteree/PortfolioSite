@@ -1,5 +1,8 @@
 # Porfolio Site
 
+## Controls
+WASD or arrow keys to move and left/normal click to interact with non-player characters/other people
+
 ## Live Link
 [Neteree's live portfolio site](https://66a668da7b4de54c9c415100--netereesportfoliosite.netlify.app/)
 
