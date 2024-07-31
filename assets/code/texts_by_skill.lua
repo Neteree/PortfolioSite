@@ -30,9 +30,9 @@ local texts_by_skill = {
 	["javascript_typescript"] = {
 		"Truffle Pig Game",
 		"Mover Bot Game",
+		"Node Web Server",
 		"Rough Portfolio Prototype",
-		"Practice Code",
-		"Coming Soon",
+		"Web Code At DI",
 	},
 }
 
