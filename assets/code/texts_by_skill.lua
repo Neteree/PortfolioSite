@@ -31,7 +31,7 @@ local texts_by_skill = {
 		"Truffle Pig Game",
 		"Mover Bot Game",
 		"Node Web Server",
-		"Rough Portfolio Prototype",
+		"KoEn Slayer",
 		"Web Code At DI",
 	},
 }
