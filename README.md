@@ -4,7 +4,7 @@
 WASD or arrow keys to move and left/normal click to interact with non-player characters/other people
 
 ## Live Link
-[Neteree's live portfolio site](https://66b1af9c8b3ab77b2dd86f13--starlit-halva-842e25.netlify.app/)
+[Neteree's live portfolio site](https://66b1cb714f9b119728268e1c--voluble-sundae-025435.netlify.app/)
 
 ## Images
 ![ps1](https://github.com/user-attachments/assets/2678a229-7ce3-4040-8a07-bdcffec62863)
