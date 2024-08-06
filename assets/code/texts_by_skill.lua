@@ -22,7 +22,7 @@ local texts_by_skill = {
 	},
 	["c#"] = {
 		"Koen Crud",
-		"Top Interview 150",
+		"LeetCode Problems",
 		"Practice Code",
 		"Coming Soon",
 		"Coming Soon",
