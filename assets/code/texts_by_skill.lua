@@ -1,17 +1,17 @@
 local texts_by_skill = {
 	["c++"] = {
-		"Coming Soon",
-		"Coming Soon",
-		"Coming Soon",
-		"Coming Soon",
-		"Coming Soon",
+		"Nothing Here Yet",
+		"Nothing Here Yet",
+		"Nothing Here Yet",
+		"Nothing Here Yet",
+		"Nothing Here Yet",
 	},
 	["python"] = {
 		"Ticket System",
 		"Whitecliffe Code Practice",
-		"Coming Soon",
-		"Coming Soon",
-		"Coming Soon",
+		"Nothing Here Yet",
+		"Nothing Here Yet",
+		"Nothing Here Yet",
 	},
 	["lua"] = {
 		"Portfolio Site",
@@ -21,11 +21,11 @@ local texts_by_skill = {
 		"Practice Code",
 	},
 	["c#"] = {
+		"Nothing Here Yet",
+		"Donations API",
 		"Koen Crud",
 		"LeetCode Problems",
 		"Practice Code",
-		"Coming Soon",
-		"Coming Soon",
 	},
 	["javascript_typescript"] = {
 		"Truffle Pig Game",
