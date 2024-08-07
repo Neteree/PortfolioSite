@@ -21,7 +21,7 @@ local texts_by_skill = {
 		"Practice Code",
 	},
 	["c#"] = {
-		"Nothing Here Yet",
+		"KoEn Slayer",
 		"Donations API",
 		"Koen Crud",
 		"LeetCode Problems",
