@@ -44,9 +44,12 @@ function on_message(self, message_id, message, sender)
 				position = go.get_position(message.other_id),
 				is_interactable = true
 			}
+
+			go.set_scale(1.125, message.other_id)
 		else
 			self.interactee = {}
 			msg.post("/projects_gui#projects_gui", "close")
+			go.set_scale(1, message.other_id)
 		end
 
 		msg.post("/cursor", "npc", self.interactee)
