@@ -1,0 +1,39 @@
+script: ""
+fonts {
+  name: "default"
+  font: "/builtins/fonts/default.font"
+}
+nodes {
+  position {
+    x: 384.0
+    y: 719.0
+  }
+  size {
+    x: 544.0
+    y: 64.0
+  }
+  type: TYPE_BOX
+  id: "box"
+  inherit_alpha: true
+  alpha: 0.73
+  size_mode: SIZE_MODE_AUTO
+}
+nodes {
+  size {
+    x: 200.0
+    y: 100.0
+  }
+  color {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+  }
+  type: TYPE_TEXT
+  text: "Move with the arrow keys or WASD to the other goblins around the\n"
+  "world and click on them when you are close to interact with them"
+  font: "default"
+  id: "text"
+  parent: "box"
+}
+material: "/builtins/materials/gui.material"
+adjust_reference: ADJUST_REFERENCE_PARENT
