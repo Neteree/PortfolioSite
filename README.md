@@ -1,7 +1,23 @@
-# Porfolio Site
+# PortfolioSite
+
+A portfolio site to showcase my software projects in an interactive way.
 
 ## Controls
-WASD or arrow keys to move and left/normal click to interact with non-player characters/other people
+- **Movement:** Use `WASD` or `arrow keys`
+- **Interaction:** Left click to interact with non-player characters
+
+## Tech Stack
+- **CSS** (UI styling)
+- **Lua** (Game logic)
+- **Defold** (Game engine)
+
+## Installation
+1. Download and install **Defold** from [defold.com](https://defold.com/).
+2. Clone this repository:
+   ```bash
+   git clone https://github.com/Neteree/PortfolioSite.git
+3. Open the project in Defold
+4. Run the game in the Defold editor
 
 ## Live Link
 [Neteree's live portfolio site](https://66babac4be029a7d7abee1dd--jazzy-buttercream-dd5c4d.netlify.app/)
